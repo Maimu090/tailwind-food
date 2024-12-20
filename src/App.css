@@ -6,8 +6,9 @@
 @tailwind utilities;
 
 .card{
-    @apply bg-white rounded overflow-hidden shadow-md relative;
-}
-.badge{
-    @apply bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
-}
+    @apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
+  }
+  
+  .badge{
+    @apply absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+  }
